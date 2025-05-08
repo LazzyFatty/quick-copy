@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "快捷复制",
+  "version": "0.0.1",
+  "author": "LazzyFatty",
+  "description": "右键菜单快速复制链接文本和地址",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

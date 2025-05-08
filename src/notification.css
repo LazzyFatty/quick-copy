@@ -1,0 +1,28 @@
+.quick-copy-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 12px 16px;
+  background: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  z-index: 99999;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  animation: quick-copy-fade 0.4s ease-out;
+  max-width: 300px;
+  word-break: break-word;
+}
+
+@keyframes quick-copy-fade {
+  from { opacity: 0; transform: translateY(-15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.quick-copy-notification.warning {
+  background: #FF9800;
+}
+
+.quick-copy-notification.error {
+  background: #F44336;
+}
