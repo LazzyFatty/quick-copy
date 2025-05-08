@@ -101,10 +101,6 @@ npm run build
 MIT License
 Copyright (c) 2025 [LazzyFatty]
 
-
-以下是完整的剩余部分，包含鸣谢、常见问题和联系方式等内容：
-
-```markdown
 ## 鸣谢 🫶
 - **代码核心开发**：[DeepSeek-V3](https://deepseek.com) 提供算法与实现方案
 - **图标设计**：由[ChatGPT DALL·E](https://chat.openai.com)生成并优化
