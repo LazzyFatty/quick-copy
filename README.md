@@ -100,6 +100,7 @@ npm run build
 ```text
 MIT License
 Copyright (c) 2025 [LazzyFatty]
+```
 
 ## 鸣谢 🫶
 - **代码核心开发**：[DeepSeek-V3](https://deepseek.com) 提供算法与实现方案
@@ -123,6 +124,5 @@ await copyToClipboard(`${text}\n${url}`);
 ---
 
 <div align="center">
-  <sub>❤️ 请给这个项目点个Star支持我们！</sub>
+  <sub>❤️ 本文档使用 <a href="https://deepseek.com">DeepSeek-V3</a> 生成</sub>
 </div>
-```
