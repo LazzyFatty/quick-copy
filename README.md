@@ -21,7 +21,7 @@
 ### 手动安装
 1. 下载代码：
    ```bash
-   git clone https://github.com/yourname/quick-copy.git
+   git clone https://github.com/LazzyFatty/quick-copy.git
    ```
 2. 浏览器访问：
    ```
